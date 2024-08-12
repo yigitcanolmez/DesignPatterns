@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design Patterns", "{67E061FE-B53C-4C27-8AE3-2A1EBA7A3D5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Design Patterns", "Creational Design Patterns", "{33D6E7F5-46E7-435E-87F4-AAD13A51EB43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder Pattern", "Builder Pattern", "{9D909F81-7623-412E-829A-4673782EC9A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "Creational Design Patterns\Builder Pattern\BuilderPattern\BuilderPattern.csproj", "{1373A9FC-2E8B-4534-9CC3-C6E1BE41BB12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1373A9FC-2E8B-4534-9CC3-C6E1BE41BB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1373A9FC-2E8B-4534-9CC3-C6E1BE41BB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1373A9FC-2E8B-4534-9CC3-C6E1BE41BB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1373A9FC-2E8B-4534-9CC3-C6E1BE41BB12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33D6E7F5-46E7-435E-87F4-AAD13A51EB43} = {67E061FE-B53C-4C27-8AE3-2A1EBA7A3D5F}
+		{9D909F81-7623-412E-829A-4673782EC9A5} = {33D6E7F5-46E7-435E-87F4-AAD13A51EB43}
+		{1373A9FC-2E8B-4534-9CC3-C6E1BE41BB12} = {9D909F81-7623-412E-829A-4673782EC9A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1474A603-BFFF-4808-91A2-F97D75A5D9FC}
+	EndGlobalSection
+EndGlobal
